@@ -132,6 +132,6 @@ export class StripeService implements IService<IStripeOptions, Stripe> {
       body,
       signature,
       secret,
-    )) as IStripeWebhookData;
+    )) as unknown as IStripeWebhookData;
   }
 }

@@ -1,6 +1,6 @@
 import { Hash, createHash, randomBytes } from "node:crypto";
+import { IService } from "../utils";
 import { IHashingOptions } from "./interfaces";
-import { IService } from "../shared";
 
 export class HashingService
   implements IService<IHashingOptions, HashingService>

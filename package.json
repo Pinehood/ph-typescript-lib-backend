@@ -7,25 +7,26 @@
   },
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.4.0",
-    "axios": "^1.6.8",
+    "axios": "^1.7.7",
     "discord-webhook-node": "^1.1.8",
-    "google-auth-library": "^9.9.0",
-    "googleapis": "^135.0.0",
-    "stripe": "^15.4.0"
+    "google-auth-library": "^9.14.1",
+    "googleapis": "^144.0.0",
+    "ph-typescript-lib-backend": "file:",
+    "stripe": "^16.9.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^20.12.7",
-    "@types/readable-stream": "^4.0.11",
+    "@types/node": "^22.5.4",
+    "@types/readable-stream": "^4.0.15",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-ts-ph": "^1.0.7",
-    "eslint-plugin-import": "^2.29.1",
-    "prettier": "^3.2.5",
+    "eslint-plugin-import": "^2.30.0",
+    "prettier": "^3.3.3",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.4"
   }
 }

@@ -1,4 +1,5 @@
 import Stripe from "stripe";
+import { IService } from "../utils";
 import { StripeConstants, STRIPE_DEFAULT_EVENTS } from "./constants";
 import {
   IStripeOptions,
@@ -6,7 +7,6 @@ import {
   IStripePaymentIntentOptions,
   IStripeWebhookData,
 } from "./interfaces";
-import { IService } from "../shared";
 
 export class StripeService implements IService<IStripeOptions, Stripe> {
   private readonly options: IStripeOptions;

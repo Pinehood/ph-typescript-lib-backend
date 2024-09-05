@@ -1,5 +1,5 @@
 import { createCipheriv, createDecipheriv, scryptSync } from "node:crypto";
-import { IService } from "../shared";
+import { IService } from "../utils";
 import { IEncryptionDetails } from "./interfaces";
 
 export class EncryptionService

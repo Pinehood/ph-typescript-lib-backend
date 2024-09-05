@@ -1,8 +1,8 @@
 import { google } from "googleapis";
 import { TokenInfo, TokenPayload } from "google-auth-library";
+import { IService } from "../utils";
 import { IGoogleUser, IOAuthOptions, IOAuthService } from "./interfaces";
 import { TGoogleMode } from "./types";
-import { IService } from "../shared";
 
 export class GoogleOAuthService
   implements

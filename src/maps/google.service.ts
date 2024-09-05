@@ -13,11 +13,11 @@ import {
   TextSearchResponse,
   TextSearchResponseData,
 } from "@googlemaps/google-maps-services-js";
+import { IService } from "../utils";
 import { EDefaults, GM_DEFAULT_PLACE_FIELDS } from "./constants";
-import { getAll } from "./helpers";
 import { IGoogleMapsOptions } from "./interfaces";
 import { TGoogleMapsPlacesData, TGoogleMapsSearchMode } from "./types";
-import { IService } from "../shared";
+import { getAll } from "./helpers";
 
 export class GoogleMapsService implements IService<IGoogleMapsOptions, Client> {
   private readonly options: IGoogleMapsOptions;

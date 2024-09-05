@@ -1,7 +1,7 @@
 import { Webhook } from "discord-webhook-node";
+import { IService } from "../utils";
 import { IDiscordMessage, IDiscordOptions } from "./interfaces";
 import { TDiscordMessageLevel, TDiscordSetWhat } from "./types";
-import { IService } from "../shared";
 
 export class DiscordService implements IService<IDiscordOptions, Webhook> {
   private readonly options: IDiscordOptions;

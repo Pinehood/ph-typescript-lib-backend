@@ -1,7 +1,7 @@
 import { Axios } from "axios";
+import { IService } from "../utils";
 import { EOAuthUrls, EOAuthUrlTokens } from "./constants";
 import { IFacebookUser, IOAuthOptions, IOAuthService } from "./interfaces";
-import { IService } from "../shared";
 
 export class FacebookOAuthService
   implements IOAuthService<IFacebookUser>, IService<IOAuthOptions, Axios>

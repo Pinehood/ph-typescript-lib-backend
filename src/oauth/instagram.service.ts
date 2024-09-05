@@ -1,7 +1,7 @@
 import { Axios } from "axios";
+import { IService } from "../utils";
 import { EOAuthUrls, EOAuthUrlTokens } from "./constants";
 import { IInstagramUser, IOAuthOptions, IOAuthService } from "./interfaces";
-import { IService } from "../shared";
 
 export class InstagramOAuthService
   implements IOAuthService<IInstagramUser>, IService<IOAuthOptions, Axios>

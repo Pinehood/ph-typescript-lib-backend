@@ -3,7 +3,7 @@ import Stripe from "stripe";
 export const StripeConstants = {
   TEST_MODE: "test",
   LIVE_MODE: "live",
-  API_VERSION: "2024-10-28.acacia",
+  API_VERSION: "2025-02-24.acacia",
   HEADER_SIGNATURE: "stripe-signature",
   PUBLIC_API_KEY_PREFIX: "pk_",
   SECRET_API_KEY_PREFIX: "sk_",

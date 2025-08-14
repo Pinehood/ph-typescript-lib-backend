@@ -6,29 +6,29 @@
     "build": "npx tsc"
   },
   "dependencies": {
-    "@googlemaps/google-maps-services-js": "^3.4.0",
-    "axios": "^1.8.3",
+    "@googlemaps/google-maps-services-js": "^3.4.2",
+    "axios": "^1.11.0",
     "discord-webhook-node": "^1.1.8",
-    "google-auth-library": "^9.15.1",
-    "googleapis": "^146.0.0",
+    "google-auth-library": "^10.2.1",
+    "googleapis": "^156.0.0",
     "ph-typescript-lib-backend": "file:",
-    "stripe": "^17.7.0"
+    "stripe": "^18.4.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.0",
-    "@eslint/js": "^9.22.0",
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.9.0",
-    "@types/readable-stream": "^4.0.18",
-    "@typescript-eslint/eslint-plugin": "^8.26.1",
-    "@typescript-eslint/parser": "^8.26.1",
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-config-ts-ph": "^1.0.7",
-    "eslint-plugin-import": "^2.31.0",
-    "prettier": "^3.5.3",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.33.0",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "@types/readable-stream": "^4.0.21",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-ts-ph": "1.0.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.6.2",
     "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.9.2"
   }
 }

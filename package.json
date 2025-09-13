@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.4.2",
-    "axios": "^1.11.0",
+    "axios": "^1.12.1",
     "discord-webhook-node": "^1.1.8",
     "google-auth-library": "^10.3.0",
     "googleapis": "^159.0.0",
@@ -18,7 +18,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.35.0",
     "@types/express": "^5.0.3",
-    "@types/node": "^24.3.1",
+    "@types/node": "^24.3.3",
     "@types/readable-stream": "^4.0.21",
     "@typescript-eslint/eslint-plugin": "^8.43.0",
     "@typescript-eslint/parser": "^8.43.0",
